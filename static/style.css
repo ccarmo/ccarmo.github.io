@@ -180,3 +180,24 @@ i.menu-mobile{
 *::-webkit-scrollbar-thumb {
     background-color: #252c90;
 }
+
+.section-bg {
+    background-color: #eff5ff;
+}
+
+.img-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#img-icons-width {
+    margin: 15px auto;
+    width: 120px;
+}
+
+@media (max-width: 400px) {
+    .img-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -283,3 +283,15 @@ i.menu-mobile{
         transform: translate3d(0, 100%, 0);
     }
 }
+
+section#contato .email h4 {
+    font-size: 20px;
+}
+
+section#contato .telefone h4 {
+    font-size: 20px;
+}
+
+section#contato .endereco h4 {
+    font-size: 20px;
+}
